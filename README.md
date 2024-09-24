@@ -48,10 +48,13 @@ pipenv shell
 
 Main Menu Options:
 
-S: View records (Customer, Transaction, Account)
-F: Add new records (Customer, Transaction, Account)
-R: Remove a customer and their associated data
-Q: Quit the program
+ S: View records (Customer, Transaction, Account)
+
+ F: Add new records (Customer, Transaction, Account)
+
+ R: Remove a customer and their associated data
+ 
+ Q: Quit the program
 
 
 
@@ -59,7 +62,11 @@ Q: Quit the program
 
 View Records Menu:
 Customer Records: Press C to list all customers.
+
+
 Transaction Records: Press T to view transaction records for a specific customer.
+
+
 Account Records: Press A to view account records for a customer.
 Back to Main Menu: Press B to return.
 
@@ -69,8 +76,15 @@ Back to Main Menu: Press B to return.
 
 Add Records Menu:
 Add Customer: Press C to add a new customer. Enter first and last names.
+
+
 Add Transaction: Press T to add a new transaction (requires account ID, amount, description).
+
+
 Add Account: Press A to create a new account (specify account type, initial deposit, and customer ID).
+
+
+
 Back to Main Menu: Press B to return.
 
 
